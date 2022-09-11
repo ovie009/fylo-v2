@@ -1,0 +1,21 @@
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+    background-color: var(--intro_background);
+}
+
+.fylo_logo img{
+    /* height: 50px; */
+    width: 100px;
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}

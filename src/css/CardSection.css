@@ -1,0 +1,25 @@
+.card_section{
+    width: 100%;
+    padding: 100px 30px;
+}
+
+.card_wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.card{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.card_text{
+    line-height: 25px;
+}

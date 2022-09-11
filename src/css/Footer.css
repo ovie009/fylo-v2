@@ -1,0 +1,104 @@
+footer{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: var(--footer_background);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 35vh;
+}
+
+.email_section{
+    position: absolute;
+    background-color: var(--intro_background);
+    height: 50vh;
+    min-height: 400px;
+    width: 85%;
+    top: -25vh;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.email_text{
+    line-height: 25px;
+}
+
+#email{
+    height: 60px;
+    border-radius: 30px;
+    padding-inline: 20px;
+    width: 100%;
+}
+
+::placeholder{
+    color: lightgray;
+}
+
+.footer_get_started{
+    width: 100%;
+}
+
+.footer_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    height: 100vh;
+    padding-inline: 30px;
+    gap: 50px;
+}
+
+.footer_logo{
+    width: 200px;
+}
+
+.details_wrapper{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.details{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.details p{
+    line-height: 25px;
+}
+
+.details img{
+    margin-top: 5px;
+}
+
+.footer_list{
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.socials_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.icon_wrapper{
+    width: 30px;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 1px solid var(--text);
+}

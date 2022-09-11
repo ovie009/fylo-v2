@@ -1,0 +1,9 @@
+.main_section{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: (100vh - 100px);
+    min-height: 600px;
+}
